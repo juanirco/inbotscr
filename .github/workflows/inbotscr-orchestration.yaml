@@ -24,13 +24,16 @@ jobs:
         with:
           api-key: ${{ secrets.IONOS_API_KEY }}
           service-host: api-us.ionos.space
-          project-id: aba80c62-7066-45bd-aad5-b1a017f0b0f2
+          project-id: 59e40d3b-be0f-492a-85bf-51dd4b4d9e65
           action: retrieve-info
 
 
   build:
     name: build
     needs: retrieve-project
+    permissions:
+      contents: read
+      packages: write
     if: ${{ needs.retrieve-project.outputs.deployment-enabled == 'true' }}
     uses: ./.github/workflows/inbotscr-build.yaml
     with:
@@ -50,6 +53,6 @@ jobs:
         with:
           api-key: ${{ secrets.IONOS_API_KEY }}
           service-host: api-us.ionos.space
-          project-id: aba80c62-7066-45bd-aad5-b1a017f0b0f2
+          project-id: 59e40d3b-be0f-492a-85bf-51dd4b4d9e65
           branch-id: ${{ needs.retrieve-project.outputs.branch-id }}
           action: dispatch-deployments
