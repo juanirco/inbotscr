@@ -1,3 +1,11 @@
+<?php
+
+if(!isset($_SESSION)) {
+    session_start();
+}
+$auth = $_SESSION['login'] ?? false;
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,9 +33,24 @@
                         <a href="/tarifas">Tarifas</a>
                         <a href="/contacto">Contacto</a>
                         <a href="/blogs">Blog</a>
+                        <?php if($auth): ?>
+                        <a href="/admin">Admin</a> <!-- Mostrar link de admin -->
+                    <?php endif?>
                     </nav>
+                </div>
+                <div class="derecha">
+                <img class="dark-mode-boton uno" src="../build/img/dark-mode.svg" alt="boton dark mode">
+                    <?php if(!$auth): ?>
+                        <a href="/login"><img class="sesionBtn dos" src="../build/img/unlocked.svg"></a> <!-- Abrir sesion -->
+                    <?php endif?>
+                    <?php if($auth): ?>
+                        <a href="/logout"><img class="sesionBtn dos" src="../build/img/lock.svg"></a>  <!-- Cerrar sesion -->
+                    <?php endif?>
+                </div>
             </div>  <!-- div barra-->
     </header>
+
+    <?php echo $contenido; ?>
 
     <footer class="footer seccion">
         <div class="contenedor contenido-footer">
@@ -48,5 +71,7 @@
         </div>
 
     </footer>
+
+        <script src="../build/js/bundle.min.js"></script>
     </body>
 </html>  
