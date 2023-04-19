@@ -44,6 +44,7 @@
                 <a href="/terminosYcondiciones">Términos & Condiciones</a><span>|</span>
                 <a href="/politicasDePrivacidad">Políticas de Privacidad</a>
             </div>
+            <p class="copyright">Todos los derechos reservados de Inbotscr <?php echo date('Y')?> &copy;</p>
         </div>
 
     </footer>
