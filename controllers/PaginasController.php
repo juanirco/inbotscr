@@ -81,17 +81,17 @@ class PaginasController  {
             try {
                 //Server settings
                 $mail->isSMTP();                                            //Send using SMTP
-                $mail->Host       = 'sandbox.smtp.mailtrap.io';                     //Set the SMTP server to send through
+                $mail->Host       = 'smtp.ionos.com';                     //Set the SMTP server to send through
                 $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-                $mail->Username   = '0cb8990dbd1b06';                     //SMTP username
-                $mail->Password   = '7556ea5cc3431c';                               //SMTP password
+                $mail->Username   = 'info@inbotscr.com';                     //SMTP username
+                $mail->Password   = 'Jygf0816.';                               //SMTP password
                 $mail->SMTPSecure = 'tls';            //Enable implicit TLS encryption
-                $mail->Port       = 2525;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+                $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
                 //Recipients
-                $mail->setFrom('admin@bienesraices.com', 'Mailer BR');
-                $mail->addAddress('admin@bienesraices.com', 'Bienes Raices');     //Add a recipient
-                $mail->Subject = 'Nuevo mensaje';
+                $mail->setFrom('info@inbotscr.com', 'Inbotscr');
+                $mail->addAddress($this->email);     //Add a recipient
+                $mail->Subject = 'Nuevo mensaje desde la página';
 
                 //Content
                 $mail->isHTML(true);                                  //Set email format to HTML
