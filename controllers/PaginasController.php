@@ -84,13 +84,13 @@ class PaginasController  {
                 $mail->Host       = 'smtp.ionos.com';                     //Set the SMTP server to send through
                 $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
                 $mail->Username   = 'info@inbotscr.com';                     //SMTP username
-                $mail->Password   = 'Jygf0816.';                               //SMTP password
+                $mail->Password   = 'Jygf08162';                               //SMTP password
                 $mail->SMTPSecure = 'tls';            //Enable implicit TLS encryption
                 $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
                 //Recipients
                 $mail->setFrom('info@inbotscr.com', 'Inbotscr');
-                $mail->addAddress($this->email);     //Add a recipient
+                $mail->addAddress('info@inbotscr.com');     //Add a recipient
                 $mail->Subject = 'Nuevo mensaje desde la página';
 
                 //Content

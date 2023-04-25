@@ -10,7 +10,7 @@
 </section>
 
 <section class="seccion contenedor homeTitles">
-    <h2>Plantillas</h2>
+    <h2>Plantillas de Chatbots</h2>
     <?php
     $demosPorPagina = 3;
     include 'logicaPaginador.php'; 

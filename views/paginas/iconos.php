@@ -18,16 +18,16 @@
     <div class="icono">
         <img src="build/img/icMultiIndustD.svg" alt="icono industrias" loading="lazy">
         <h3>Multiples Industrias</h3>
-        <p>Tenemos soluciones para los distintos nichos e industrias, diseñamos plantillas para los nichos con mayor necesidad, pero si no encuentras tu nicho, contactanos, que con gusto diseñamos una solución para tu negocio.</p>
+        <p>Tenemos soluciones para los distintos nichos e industrias, diseñamos plantillas para los nichos con mayor volumen de interacciones por parte de su publico, pero si no encuentras tu nicho, contactanos, que con mucho gusto diseñamos una solución para tu negocio.</p>
     </div>
     <div class="icono">
         <img src="build/img/icMultiCanalD.svg" alt="icono canales" loading="lazy">
         <h3>Multiples Canales</h3>
-        <p>Ofrecemos soluciones para los distintos canales: chatbots para Facebook, chatbots para Whatsapp, chatbots para Instagram, chatbots para sitios web, etc. Pero también, ofrecemos soluciones omnicanal.</p>
+        <p>Ofrecemos soluciones para los distintos canales: chatbots para Facebook, chatbots para Whatsapp, chatbots para Instagram, chatbots para sitios web, etc. Pero también, ofrecemos soluciones omnicanal(presencia en muchos o todos los canales .</p>
     </div>
     <div class="icono">
         <img src="build/img/icDispositivoD.svg" alt="icono multidispositivo" loading="lazy">
         <h3>Multidispositivo</h3>
-        <p>Sabemos que no siempre se puede estar cerca de una computadora, por ende todas nuestras soluciones están adaptadas para que puedas acceder desde cualquier dispositivo y desde cualquier lugar.</p>
+        <p>Sabemos que no siempre se puede estar cerca de una computadora o laptop, por ende todas nuestras soluciones están adaptadas para que puedas acceder desde cualquier dispositivo electrónico y desde cualquier lugar.</p>
     </div>
 </div>
