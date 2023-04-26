@@ -71,6 +71,42 @@ $auth = $_SESSION['login'] ?? false;
                 <a href="/politicasDePrivacidad">Políticas de Privacidad</a>
             </div>
             <p class="copyright">Todos los derechos reservados de Inbotscr <?php echo date('Y')?> &copy;</p>
+            <div class="redes">
+                <p>Siguenos en nuestras redes</p>
+                <ul>
+                    <li>
+                        <a href="https://wa.me/+50683189598" class="whatsapp" target="_blank">                        
+                            <img src="../build/img/whatsapp.svg" alt="Link a cuenta de Whatsapp de Inbotscr">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/inbotscr/" class="linkedin" target="_blank">
+                            <img src="../build/img/linkedin.svg" alt="Link a cuenta de Linkedin de Inbotscr">
+                        </a> 
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/inbotscr/" class="instagram" target="_blank">
+                            <img src="../build/img/instagram.svg" alt="Link a cuenta de Instagram de Inbotscr">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/inbotscr" class="facebook" target="_blank">
+                            <img src="../build/img/facebook.svg" alt="Link a cuenta de Facebook de Inbotscr">
+                        </a>   
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" class="twitter" target="_blank">
+                            <img src="../build/img/twitter.svg" alt="Link a cuenta de Twitter de Inbotscr">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/@inbotscr3426" class="youtube" target="_blank">
+                            <img src="../build/img/youtube.svg" alt="Link a canal de Inbotscr en Youtube">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
         </div>
 
     </footer>
