@@ -12,7 +12,7 @@ $auth = $_SESSION['login'] ?? false;
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="En Inbotscr, ofrecemos soluciones de chatbots y chatmarketing para empresas en Costa Rica y en todo el mundo. Nuestros expertos en inteligencia artificial y marketing digital diseñan y desarrollan chatbots personalizados para mejorar la experiencia del usuario y aumentar la eficiencia empresarial. ¡Contáctanos hoy para llevar tu negocio al siguiente nivel con nuestras soluciones de chatbot y chatmarketing! #Inbotscr #Chatbots #CostaRica">
+    <meta name="description" content="Chatbots y chatmarketing en Costa Rica. Diseñamos chatbots personalizados para mejorar la experiencia del usuario y vender más. ¡Contáctanos! #Inbotscr #Chatbots #CostaRica">
     <title>Inbotscr | Expertos en Chatbots y Chatmarketing</title>
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
