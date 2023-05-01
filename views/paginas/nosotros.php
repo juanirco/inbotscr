@@ -14,7 +14,7 @@
                     </blockquote>
                     <p>Bienvenido a Inbotscr, donde nos apasiona la construcción de chatbots y la implementación de estrategias de chat marketing para impulsar el éxito de su negocio.</p>
 
-                    <p>Con más de 5 años de experiencia en la industria de los chatbots, hemos sido certificados como agencia partner de Manychat, School of Bots y Chatrace, lo que nos permite ofrecerle soluciones personalizadas y de alta calidad para su negocio.</p>
+                    <p>Con más de 5 años de experiencia en la industria de los chatbots, hemos sido certificados como agencia de chatbots y chatmarketing partner de Manychat, School of Bots y Chatrace, lo que nos permite ofrecerle soluciones personalizadas y de alta calidad para su negocio.</p>
 
                     <p>En Inbotscr, entendemos la importancia de crear relaciones sólidas con nuestros clientes y trabajar de la mano para alcanzar objetivos comunes. Nuestra prioridad es brindarle una experiencia de servicio excepcional, asegurándonos de que cada detalle esté cubierto y que su chatbot esté funcionando a la perfección.</p>
             </div>

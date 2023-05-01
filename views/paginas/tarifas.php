@@ -2,7 +2,8 @@
         <h1>Tarifas</h1>
 
         <h5>Nuestro objetivo es brindar nuestros servicios de chatbots y de chat marketing a la mayor cantidad de negocios posible, debido a esto, hemos decidido ofrecer variedad de opciones para adaptarnos según sean las necesidades y presupuesto de cada negocio. </h5>
-           <h3> Estas son nuestras opciones, escoje la que más se adapte a tu negocio:</h3>
+        <hr class="hrMitad">
+           <h3 class="h3Tarifas"> Estas son nuestras opciones, escoje la que más se adapte a tu negocio:</h3>
         <div class="tarifas">
                 <div class="card">
                     <div class="titulo">

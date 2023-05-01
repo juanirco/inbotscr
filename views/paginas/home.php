@@ -8,11 +8,11 @@
 <section class="contenedor homeTitles">
     <h2>Cuando trabajas con nosotros te aseguras:</h2>
     <ul class="checks">
-        <li>Mayores porcentajes de satisfacción al cliente</li>
-        <li>Mejores tasas de click y de apertura</li>
-        <li>Tener un mayor alcance</li>
-        <li>Aumentar tus ventas</li>
-        <li>Presencia 24/7</li>
+        <li>Mayores porcentajes de satisfacción al cliente.</li>
+        <li>Mejores tasas de click y de apertura.</li>
+        <li>Tener mucho mayor alcance.</li>
+        <li>Aumentar tus ventas.</li>
+        <li>Presencia 24/7.</li>
     </ul>
 
     <div class="alinear-botonPrincipal">

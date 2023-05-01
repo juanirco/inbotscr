@@ -44,10 +44,10 @@ $auth = $_SESSION['login'] ?? false;
                 <div class="derecha">
                 <img class="dark-mode-boton uno" src="../build/img/dark-mode.svg" alt="boton dark mode">
                     <?php if(!$auth): ?>
-                        <a href="/login"><img class="sesionBtn dos" src="../build/img/unlocked.svg"></a> <!-- Abrir sesion -->
+                        <a href="/login"><img class="sesionBtn dos" src="../build/img/unlocked.svg" alt="Icono candado abierto"></a> <!-- Abrir sesion -->
                     <?php endif?>
                     <?php if($auth): ?>
-                        <a href="/logout"><img class="sesionBtn dos" src="../build/img/lock.svg"></a>  <!-- Cerrar sesion -->
+                        <a href="/logout"><img class="sesionBtn dos" src="../build/img/lock.svg" alt="Icono candado cerrado"></a>  <!-- Cerrar sesion -->
                     <?php endif?>
                 </div>
             </div>  <!-- div barra-->
